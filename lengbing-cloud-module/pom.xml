@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lengbing-boot-parent</artifactId>
+        <groupId>org.jeecgframework.boot</groupId>
+        <version>3.2.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lengbing-cloud-module</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lengbing-cloud-gateway</module>
+        <module>lengbing-cloud-nacos</module>
+        <module>lengbing-cloud-sentinel</module>
+        <module>lengbing-cloud-monitor</module>
+        <module>lengbing-cloud-system-start</module>
+        <module>lengbing-cloud-xxljob</module>
+        <module>lengbing-cloud-test</module>
+    </modules>
+
+
+
+</project>
