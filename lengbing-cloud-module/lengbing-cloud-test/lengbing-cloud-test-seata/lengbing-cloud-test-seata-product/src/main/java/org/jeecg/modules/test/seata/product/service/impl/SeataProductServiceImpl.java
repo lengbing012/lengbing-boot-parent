@@ -2,8 +2,6 @@ package org.jeecg.modules.test.seata.product.service.impl;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import lombok.extern.slf4j.Slf4j;
-
-
 import org.jeecg.modules.test.seata.product.entity.SeataProduct;
 import org.jeecg.modules.test.seata.product.mapper.SeataProductMapper;
 import org.jeecg.modules.test.seata.product.service.SeataProductService;

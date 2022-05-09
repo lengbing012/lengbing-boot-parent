@@ -4,7 +4,6 @@ package com.alibaba.csp.sentinel.dashboard.rule.nacos.paramflow;
 import com.alibaba.csp.sentinel.dashboard.constants.SentinelConStants;
 import com.alibaba.csp.sentinel.dashboard.datasource.entity.rule.ParamFlowRuleEntity;
 import com.alibaba.csp.sentinel.dashboard.rule.DynamicRuleProvider;
-import com.alibaba.csp.sentinel.dashboard.rule.nacos.SentinelConfig;
 import com.alibaba.csp.sentinel.dashboard.rule.nacos.entity.ParamFlowRuleCorrectEntity;
 import com.alibaba.csp.sentinel.datasource.Converter;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowRule;

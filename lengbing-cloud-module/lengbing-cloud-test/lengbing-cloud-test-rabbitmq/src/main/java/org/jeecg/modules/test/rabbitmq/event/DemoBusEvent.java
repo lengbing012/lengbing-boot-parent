@@ -1,13 +1,12 @@
 package org.jeecg.modules.test.rabbitmq.event;
 
+import cn.hutool.core.util.ObjectUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.jeecg.boot.starter.rabbitmq.event.EventObj;
 import org.jeecg.boot.starter.rabbitmq.event.JeecgBusEventHandler;
 import org.jeecg.common.base.BaseMap;
 import org.jeecg.modules.test.rabbitmq.constant.CloudConstant;
 import org.springframework.stereotype.Component;
-
-import cn.hutool.core.util.ObjectUtil;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 消息处理器【发布订阅】

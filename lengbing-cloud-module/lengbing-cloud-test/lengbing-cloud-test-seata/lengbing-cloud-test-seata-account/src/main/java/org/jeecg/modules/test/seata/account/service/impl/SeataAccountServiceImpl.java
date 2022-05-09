@@ -3,7 +3,6 @@ package org.jeecg.modules.test.seata.account.service.impl;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import lombok.extern.slf4j.Slf4j;
-
 import org.jeecg.modules.test.seata.account.entity.SeataAccount;
 import org.jeecg.modules.test.seata.account.mapper.SeataAccountMapper;
 import org.jeecg.modules.test.seata.account.service.SeataAccountService;

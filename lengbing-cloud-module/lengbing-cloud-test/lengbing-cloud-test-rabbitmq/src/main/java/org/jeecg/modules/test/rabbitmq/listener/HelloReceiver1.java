@@ -1,5 +1,7 @@
 package org.jeecg.modules.test.rabbitmq.listener;
 
+import com.rabbitmq.client.Channel;
+import lombok.extern.slf4j.Slf4j;
 import org.jeecg.boot.starter.rabbitmq.core.BaseRabbiMqHandler;
 import org.jeecg.boot.starter.rabbitmq.listenter.MqListener;
 import org.jeecg.common.annotation.RabbitComponent;
@@ -11,10 +13,6 @@ import org.springframework.amqp.support.AmqpHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.web.client.RestTemplate;
-
-import com.rabbitmq.client.Channel;
-
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 定义接收者（可以定义N个接受者，消息会均匀的发送到N个接收者中）

@@ -8,7 +8,6 @@ package org.jeecg.modules.test.seata.order.controller;
  */
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-
 import org.jeecg.modules.test.seata.order.dto.PlaceOrderRequest;
 import org.jeecg.modules.test.seata.order.service.SeataOrderService;
 import org.springframework.beans.factory.annotation.Autowired;

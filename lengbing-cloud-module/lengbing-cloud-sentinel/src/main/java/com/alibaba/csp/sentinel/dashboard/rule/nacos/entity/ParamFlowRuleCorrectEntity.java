@@ -6,8 +6,6 @@ import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowClusterConfig;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowItem;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowRule;
 
-import java.util.*;
-
 /**
  * @author zyf
  * @description 重写热点规则实体类,。查看sentinel-dashboard在自定义ParamFlowRuleNacosPublisher时候 推送的数据是ParamFlowRuleEntity。 客户端接收的ParamFlowRule类

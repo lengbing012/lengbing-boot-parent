@@ -15,12 +15,12 @@
  */
 package com.alibaba.csp.sentinel.dashboard;
 
+import com.alibaba.csp.sentinel.init.InitExecutor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
-import com.alibaba.csp.sentinel.init.InitExecutor;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * Sentinel dashboard application.
