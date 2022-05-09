@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version: 1.0
  */
 @RestController
-@RequestMapping("/hwz")
+@RequestMapping("/lbkj")
 public class HwzController {
-    @GetMapping(value = "/hwztolb")
-    public Result<String> hwztolb(){
+    @GetMapping(value = "/hwz")
+    public Result<String> hwz(){
         Result<String> result = new Result<String>();
-        result.setResult("hwz to lb");
+        result.setResult("hwz,hello");
         result.setSuccess(true);
         return result;
     }
