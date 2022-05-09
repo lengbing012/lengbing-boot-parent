@@ -19,7 +19,6 @@ package com.xxl.job.admin.core.cron;
 
 import java.io.Serializable;
 import java.text.ParseException;
-import java.util.*;
 
 /**
  * Provides a parser and evaluator for unix-like cron expressions. Cron 

@@ -70,7 +70,8 @@
         <module>lengbing-boot-module-demo</module>
         <module>lengbing-boot-module-system</module>
 		<module>lengbing-boot-starter</module>
-	</modules>
+        <module>lengbing-boot-module-lbkj</module>
+    </modules>
 
 	<distributionManagement>
 	  	<repository>
